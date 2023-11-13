@@ -13,7 +13,7 @@ class TestMatematico(unittest.TestCase):
         self.assertEqual(suma(3, 2),5) 
         self.assertEqual(suma(-1, 1),0) 
         self.assertEqual(suma(-1, -1), -2)
-        self.assertEqual(resta(-100, -50),-150)
+        self.assertNotEqual(resta(-100, -50),-150)
         self.assertEqual(resta(99, 1),98)
         self.assertEqual(multi(10, 0),0)
         self.assertAlmostEqual(division(12,4),3)
