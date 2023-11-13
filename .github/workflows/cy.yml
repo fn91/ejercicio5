@@ -9,20 +9,17 @@ on:
     
 jobs:
     build:
-        runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
-        name: Checkout repository
-        uses: action/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
-
-
-
-        name: Set up Python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with: 
-         python-version: 3.8
+            python-version: 3.8
 
-        name: Run tests
+      - name: Run tests
         run:
-            python -m unittest test_operaciones.python
+          python -m unittest opera_test.py  
