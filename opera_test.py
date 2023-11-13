@@ -16,8 +16,8 @@ class TestMatematico(unittest.TestCase):
         self.assertNotEqual(resta(-100, -50),-150)
         self.assertEqual(resta(99, 1),98)
         self.assertEqual(multi(10, 0),0)
-        self.assertAlmostEqual(division(8,0),0)
-        
+        self.assertEqual(division(10,2),5)
+        self.assertAlmostEquals(division(0,0),0)
 
 
     if __name__=="__main__":
