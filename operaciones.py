@@ -28,7 +28,7 @@ if __name__=="__main__":
 def division (a, b):
     
        
-    if a==0:
+    if a!=0:
        print(a/b)
     else:
         print("No se puede dividir entre 0")
