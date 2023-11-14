@@ -31,7 +31,7 @@ def division (a,b):
         if a == 0 :
         
             print("No se puede dividir entre 0")
-  
+        
         return (a/b)
     
     
