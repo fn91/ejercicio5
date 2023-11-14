@@ -28,6 +28,7 @@ if __name__=="__main__":
 def division (a, b,aceptado=True):
     
     try:
+        a=int
         if a == 0 and not aceptado :
         
          print("No se puede dividir entre 0")
