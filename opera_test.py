@@ -16,7 +16,7 @@ class TestMatematico(unittest.TestCase):
         self.assertNotEqual(resta(-100, -50),-150)
         self.assertEqual(resta(99, 1),98)
         self.assertEqual(multi(10, 10),100)
-        self.assertEqual(division(10,2),5)
+        self.assertEqual(division(20,2),5)
         
 
 
