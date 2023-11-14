@@ -30,7 +30,9 @@ def division (a, b):
        
     if a==0:
        print(a/b)
-    return (a/b)
+    else:
+        print("No se puede dividir entre 0")
+        return (a/b)
     
     
 if __name__=="__main__":
