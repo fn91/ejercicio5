@@ -25,7 +25,7 @@ if __name__=="__main__":
     
 
 
-def division (a, b,aceptado):
+def division (a, b,aceptado=True):
     
     try:
         if a == 0 and not aceptado :
