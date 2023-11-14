@@ -1,4 +1,4 @@
-from fastapi import HTTPException
+  
 
 def suma (a, b):
     return (a+b)
@@ -29,7 +29,7 @@ def division (a, b):
     
        
     if a==0:
-       raise HTTPException(status_code=400, detail="Error no se puede dividir entre 0") 
+       print(a/b)
     return (a/b)
     
     
