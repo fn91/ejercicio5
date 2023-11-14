@@ -27,15 +27,12 @@ if __name__=="__main__":
 
 def division (a, b,aceptado=True):
     
-    try:
-        a=int
-        if a == 0 and not aceptado :
+    
+        if a == 0 :
         
-         print("No se puede dividir entre 0")
-    except ValueError:
-            print("Va perfecto")    
-        
-            return (a/b)
+            print("No se puede dividir entre 0")
+  
+        return (a/b)
     
     
 if __name__=="__main__":
