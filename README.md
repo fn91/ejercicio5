@@ -1,3 +1,3 @@
 # ejercicio5
 
-Operaciones matematicas con calculadora.
+Operaciones matematicas. 
